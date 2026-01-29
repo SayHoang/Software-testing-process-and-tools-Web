@@ -21,19 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_DeleteCandidate/input_Username_username'), 'admin')
+WebUI.setText(findTestObject('Object Repository/TC/Page_DeleteCandidate/input_Username_username'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_DeleteCandidate/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/TC/Page_DeleteCandidate/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_DeleteCandidate/input_Password_password'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/TC/Page_DeleteCandidate/input_Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_DeleteCandidate/a_Recruitment'))
+WebUI.click(findTestObject('Object Repository/TC/Page_DeleteCandidate/a_Recruitment'))
 
-WebUI.click(findTestObject('Object Repository/Page_DeleteCandidate/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad'))
+WebUI.click(findTestObject('Object Repository/TC/Page_DeleteCandidate/i_Actions_oxd-icon bi-check oxd-checkbox-in_fe61ad'))
 
-WebUI.click(findTestObject('Object Repository/Page_DeleteCandidate/button_Delete Selected'))
+WebUI.click(findTestObject('Object Repository/TC/Page_DeleteCandidate/button_Delete Selected'))
 
-WebUI.click(findTestObject('Object Repository/Page_DeleteCandidate/button_Yes, Delete'))
+WebUI.click(findTestObject('Object Repository/TC/Page_DeleteCandidate/button_Yes, Delete'))
 
 WebUI.closeBrowser()
 

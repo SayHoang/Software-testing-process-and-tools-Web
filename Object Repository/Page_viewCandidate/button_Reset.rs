@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Reset</name>
    <tag></tag>
-   <elementGuidId>5b1fd41f-eaa8-40ba-8d87-4ddf555db052</elementGuidId>
+   <elementGuidId>dcb6ad6f-528f-4e2c-b9f9-b0e2ec6db848</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.oxd-button.oxd-button--medium.oxd-button--main.orangehrm-login-button</value>
+         <value>button.oxd-button.oxd-button--medium.oxd-button--ghost</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//button[@type='reset']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Login&quot;i]</value>
+         <value>internal:role=button[name=&quot;Reset&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,94 +29,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3ea37be6-5948-49c8-a117-61c9566ea965</webElementGuid>
+      <webElementGuid>ae252bff-c05d-4b78-afc3-8a2656aa4376</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>9804bff3-1382-422a-a2bb-ac0aa1bac416</webElementGuid>
+      <value>reset</value>
+      <webElementGuid>c397ee59-4217-494e-afac-8741d6a0783a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>oxd-button oxd-button--medium oxd-button--main orangehrm-login-button</value>
-      <webElementGuid>7ae3cad4-acc9-42ef-bf23-f2e843c1570a</webElementGuid>
+      <value>oxd-button oxd-button--medium oxd-button--ghost</value>
+      <webElementGuid>c1db657f-2eb3-4e11-966f-bcfa63e04585</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Login </value>
-      <webElementGuid>29978bca-6dc0-44c4-9344-d167d146954d</webElementGuid>
+      <value> Reset </value>
+      <webElementGuid>b95ffdd8-dcdd-4a84-a252-8367eb1ce4e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]/div[@class=&quot;orangehrm-login-form&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-actions orangehrm-login-action&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--main orangehrm-login-button&quot;]</value>
-      <webElementGuid>aac3a017-e200-4930-ad09-8d62fe5ef83a</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-candidate-page&quot;]/div[@class=&quot;oxd-table-filter&quot;]/div[@class=&quot;oxd-table-filter-area&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-actions&quot;]/button[@class=&quot;oxd-button oxd-button--medium oxd-button--ghost&quot;]</value>
+      <webElementGuid>c9016a63-cd67-4288-963b-4665863be5bf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>afeab137-3041-41da-b199-32df5ad7d811</webElementGuid>
+      <value>//button[@type='reset']</value>
+      <webElementGuid>fd86945f-91e6-46c5-8ffa-db4723f3eafc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/form/div[3]/button</value>
-      <webElementGuid>3e7ec057-ced4-4f7e-8ba3-653fb1092637</webElementGuid>
+      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div[2]/form/div[4]/button</value>
+      <webElementGuid>a51a02d4-e807-4d67-9c9e-ba3a295d44c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>770217ec-344d-4682-806c-53c353374393</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-- Select --'])[5]/following::button[1]</value>
+      <webElementGuid>cb59595d-d0ca-421a-b8d5-8978564db00e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
-      <webElementGuid>6a631395-0f93-4de9-82dd-2c78372f4ed7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Method of Application'])[1]/following::button[1]</value>
+      <webElementGuid>a8bb2445-8ca4-4005-8c87-8623772a0efe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OrangeHRM, Inc'])[1]/preceding::button[1]</value>
-      <webElementGuid>ccf63a48-b016-4517-86c1-9beea699a433</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Reset']/parent::*</value>
+      <webElementGuid>4add5eb4-5c33-403f-bfbf-6fae8116f55e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>2aa57c38-08fe-4d30-bed7-1817b369de7c</webElementGuid>
+      <value>//div[4]/button</value>
+      <webElementGuid>0102be86-e529-4692-8969-2856f9e7f8e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = ' Login ' or . = ' Login ')]</value>
-      <webElementGuid>36393ed1-effc-44d4-8b96-3c0f1fdfac5c</webElementGuid>
+      <value>//button[@type = 'reset' and (text() = ' Reset ' or . = ' Reset ')]</value>
+      <webElementGuid>71ffb6b9-24e4-40ef-946f-0b9fb23a1e17</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

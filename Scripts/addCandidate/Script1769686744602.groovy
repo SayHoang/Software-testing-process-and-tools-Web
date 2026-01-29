@@ -21,15 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/TC/Page_ViewCandidate(id)/input_Username_username'), 'admin')
+WebUI.setText(findTestObject('Page_login/input_Username_username'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC/Page_ViewCandidate(id)/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('Page_login/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.sendKeys(findTestObject('Object Repository/TC/Page_ViewCandidate(id)/input_Password_password'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Page_login/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/TC/Page_ViewCandidate(id)/a_Recruitment'))
+WebUI.click(findTestObject('Object Repository/TC/Page_ViewCandidate/a_Recruitment'))
 
-WebUI.click(findTestObject('Object Repository/TC/Page_ViewCandidate(id)/button_(Deleted)_oxd-icon-button oxd-table-_a83a6c'))
+WebUI.click(findTestObject('Page_viewCandidate/button_Add Candidate'))
+
+WebUI.setText(findTestObject('Page_addCandidate/firstName'), 'Anh')
+
+WebUI.setText(findTestObject('Page_addCandidate/middleName'), 'Nguyen')
+
+WebUI.setText(findTestObject('Page_addCandidate/lastName'), 'Thuy')
+
+WebUI.setText(findTestObject('Page_addCandidate/email'), 'test@gmail.com')
+
+WebUI.click(findTestObject('Page_addCandidate/button_Save'))
 
 WebUI.closeBrowser()
 
