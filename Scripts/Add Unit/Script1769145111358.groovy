@@ -21,21 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://saleserpdemo.bdtask-demo.com/v10_demo/')
 
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_/input_Email_email_1'), 'admin@gmail.com')
+WebUI.setText(findTestObject('Object Repository/TC Product/Page_/input_Email_email'), 'admin@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC Product/Page_/input_Password_password_1'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/TC Product/Page_/input_Password_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_/button_Login'))
 
 WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Product'))
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Add Category'))
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Dashboard/a_Add Unit'))
 
-WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Category/input__category_name'), 'New Product')
+WebUI.setText(findTestObject('Object Repository/TC Product/Page_Add Unit/input__unit_name'), 'pack')
 
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/button_Save'))
-
-WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Category/div_You Are In Demo Mode'))
+WebUI.click(findTestObject('Object Repository/TC Product/Page_Add Unit/button_Save'))
 
 WebUI.closeBrowser()
 
