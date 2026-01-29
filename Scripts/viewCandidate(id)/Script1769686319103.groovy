@@ -21,13 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
-WebUI.setText(findTestObject('Object Repository/Page_ViewCandidate/input_Username_username'), 'admin')
+WebUI.setText(findTestObject('Object Repository/Page_ViewCandidate(id)/input_Username_username'), 'admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_ViewCandidate/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_ViewCandidate(id)/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_ViewCandidate/button_Login'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_ViewCandidate(id)/input_Password_password'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Page_ViewCandidate/a_Recruitment'))
+WebUI.click(findTestObject('Object Repository/Page_ViewCandidate(id)/a_Recruitment'))
+
+WebUI.click(findTestObject('Object Repository/Page_ViewCandidate(id)/button_(Deleted)_oxd-icon-button oxd-table-_a83a6c'))
 
 WebUI.closeBrowser()
 
